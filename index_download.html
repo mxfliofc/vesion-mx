@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Download do App MXFLIX</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    color: white;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+  }
+
+  #video-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    object-fit: cover;
+    filter: brightness(60%);
+  }
+
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 100px); /* Altura da tela menos a altura do botão */
+    z-index: 1;
+  }
+
+  h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+  }
+
+  .download-button {
+    position: fixed; /* Posição fixa para manter o botão no centro da tela */
+    bottom: 50px; /* Distância em relação ao fundo da tela */
+    left: 50%;
+    transform: translateX(-50%);
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 30px;
+    background: linear-gradient(to right, #8E2DE2, #4A00E0);
+    color: white;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    z-index: 9999; /* Garante que o botão fique sobre todos os outros elementos */
+  }
+
+  .download-button:hover {
+    transform: scale(1.1);
+  }
+
+  .logo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+  }
+</style>
+</head>
+<body>
+  <video autoplay muted loop id="video-background" preload="auto">
+    <source src="https://dev-mx-flix-ofc-br.pantheonsite.io/wp-content/uploads/2024/03/2_5208756785481009409.mp4" type="video/mp4">
+    Your browser does not support HTML5 video.
+  </video>
+  <div class="overlay"></div>
+  <div class="content">
+    <img src="https://dev-mx-flix-ofc-br.pantheonsite.io/wp-content/uploads/2024/03/1711849720819.png" alt="Logo MXFLIX" class="logo">
+    <h1>Download do App MXFLIX</h1>
+    <p>Abaixar o app da MX FLIX<br>Faça o download agora e desfrute de filmes e séries incríveis!</p>
+  </div>
+  <!-- Botão de download fixo -->
+  <a href="https://download1580.mediafire.com/sz1ny12y22eguDJBF9m3F9C0NIq9Y_mjlRBuxo_MzfNp_I3D1Fpa172fFBjEWjlgjmO7gKCBJizUXdCRKkSpqEwtoiXGuLw-8kBbiXZ9IJgVUUv3sjsBk9aOJlLrzQLYqr9ScEO1vTZIwrIfK2k975dvC4rh4vtEezHzWl38gy4F/qi0cb3alc73nv8c/MXFLIX1.8.apk" class="download-button">Download</a>
+</body>
+</html>
+
