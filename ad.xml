@@ -1,0 +1,23 @@
+<VAST version="3.0">
+  <Ad id="1">
+    <InLine>
+      <AdSystem>FluidPlayer</AdSystem>
+      <AdTitle>Coca-Cola Energy Ad</AdTitle>
+      <Creatives>
+        <Creative>
+          <Linear>
+            <Duration>00:00:10</Duration>
+            <MediaFiles>
+              <MediaFile delivery="progressive" type="video/mp4" width="640" height="360" scalable="true" maintainAspectRatio="true">
+                https://dev-mx-flix-ofc-br.pantheonsite.io/wp-content/uploads/2023/12/Campana-Coca-Cola-Energy-10-segundos.mp4
+              </MediaFile>
+            </MediaFiles>
+            <VideoClicks>
+              <ClickThrough><![CDATA[https://yourwebsite.com]]></ClickThrough>
+            </VideoClicks>
+          </Linear>
+        </Creative>
+      </Creatives>
+    </InLine>
+  </Ad>
+</VAST>
