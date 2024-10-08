@@ -1,10 +1,8 @@
 {
-  "url_api_files_1": "https://filemoonapi.com/api/file/list?key=59725glv0h62rlkr2h08n&page=1&per_page=1000&fld_id=",
-  "url_api_files_2": "https://filemoonapi.com/api/file/list?key=46341lpkuy1v4andwxaxa&page=1&per_page=1000&fld_id=",
-  "url_api_pastas_1": "https://filemoonapi.com/api/folder/list?key=59725glv0h62rlkr2h08n&fld_id=",
-  "url_api_pastas_2": "https://filemoonapi.com/api/folder/list?key=46341lpkuy1v4andwxaxa&fld_id=",
-  "base_url_code": "https://filemoon.sx/",
-  "base_url_code2": "https://filemoon.sx/e/",
+  "url_api_files_1": "file/list?key=59725glv0h62rlkr2h08n&page=1&per_page=1000&fld_id=",
+  "url_api_files_2": "file/list?key=46341lpkuy1v4andwxaxa&page=1&per_page=1000&fld_id=",
+  "url_api_pastas_1": "folder/list?key=59725glv0h62rlkr2h08n&fld_id=",
+  "url_api_pastas_2": "folder/list?key=46341lpkuy1v4andwxaxa&fld_id=",
   "img_banner_6x6": "https://img-place.com/",
   "final_img_banner_6x6": "_xt.jpg",
   "key": "59725glv0h62rlkr2h08n"
