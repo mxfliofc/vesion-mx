@@ -1,9 +1,6 @@
 {
-  "url_api_files_1": "file/list?key=59725glv0h62rlkr2h08n&page=1&per_page=1000&fld_id=",
-  "url_api_files_2": "file/list?key=46341lpkuy1v4andwxaxa&page=1&per_page=1000&fld_id=",
-  "url_api_pastas_1": "folder/list?key=59725glv0h62rlkr2h08n&fld_id=",
-  "url_api_pastas_2": "folder/list?key=46341lpkuy1v4andwxaxa&fld_id=",
+  "url_api_files_1": "file/listfolder?login=c4eed6c16cc8bd0f1e90&key=QD2Ka2PB8zUJq7&folder=",
   "img_banner_6x6": "https://img-place.com/",
   "final_img_banner_6x6": "_xt.jpg",
-  "key": "59725glv0h62rlkr2h08n"
+  "key": "off"
 }
